@@ -1,6 +1,5 @@
 
-Sage Root Continous Deployment
-Wordpress # WP Engine or Cloudways + Codeship Continuous Deployment/Delivery
+Sage Root Wordpress # WP Engine or Cloudways + Codeship Continuous Deployment/Delivery
 
 **Important Note:** All assets/files within your repo should be within the root folder. **DO NOT** include `wp-content`, `wp-content\plugins` etc. The deploy script will create all the appropriate folders as needed.
 
@@ -15,21 +14,7 @@ All of the environment variables below are required
 |**REPO_NAME**|(**"theme"** or **"plugin"**) heme repo name (Typically the folder name of the project)|:heavy_exclamation_mark:|
 |**SSH_USERNAME**|Username for the SSH connection|:heavy_exclamation_mark:|
 
-
-
-### Codeship Environment Variables For WPengine
-
-All of the environment variables below are required
-
-|Variable|Description|Required|
-| ------------- | ------------- | ------------- |
-|**PROD_INSTALL_IP**|IP for production install|:heavy_exclamation_mark:|
-|**DEV_INSTALL_IP**|IP for development install|:heavy_exclamation_mark:|
-|**REPO_NAME**|(**"theme"** or **"plugin"**) theme repo name (Typically the folder name of the project)|:heavy_exclamation_mark:|
-|**SSH_USERNAME**|Username for the SSH connection|:heavy_exclamation_mark:|
-
-
-### Codeship Environment Variables For Cloudways
+### Codeship Environment Variables For WP Engine
 
 All of the environment variables below are required
 
@@ -63,7 +48,7 @@ chmod 555 ./wordpress-codeship-continuous-deployment/deploy-rsync.sh
 ./wordpress-codeship-continuous-deployment/deploy-rsync.sh
 ```
 
-### WPengine
+### WP Engine
 
 ```
 # load our build script from the repo
