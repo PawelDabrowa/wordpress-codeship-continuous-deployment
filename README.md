@@ -43,7 +43,7 @@ In order to deploy to your pipeline you can use the following command regardless
 
 ```
 # load our build script from the repo
-git clone --branch "master" --depth 50 https://github.com/PawelDabrowa/wordpress-codeship-continuous-deployment
+git clone --branch "main" --depth 50 https://github.com/PawelDabrowa/wordpress-codeship-continuous-deployment
 chmod 555 ./wordpress-codeship-continuous-deployment/deploy-rsync.sh
 ./wordpress-codeship-continuous-deployment/deploy-rsync.sh
 ```
@@ -52,7 +52,7 @@ chmod 555 ./wordpress-codeship-continuous-deployment/deploy-rsync.sh
 
 ```
 # load our build script from the repo
-git clone --branch "master" --depth 50 https://github.com/PawelDabrowa/wordpress-codeship-continuous-deployment
+git clone --branch "main" --depth 50 https://github.com/PawelDabrowa/wordpress-codeship-continuous-deployment
 chmod 555 ./wordpress-codeship-continuous-deployment/deploy-.sh
 ./wordpress-codeship-continuous-deployment/deploy.sh
 ```
